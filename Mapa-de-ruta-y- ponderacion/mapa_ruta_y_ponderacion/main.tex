@@ -1,0 +1,85 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{cite}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{Mapa de ruta y ponderación de destreza}
+            
+        \vspace{0.5cm}
+        \LARGE
+        Segunda Actividad
+            
+        \vspace{1.5cm}
+            
+        \textbf{Lucas Ospina Carrillo}
+
+        \vfill
+            
+        \vspace{0.8cm}
+            
+        \Large
+        Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
+        Universidad de Antioquia\\
+        Medellín\\
+        Noviembre 18 de 2021
+            
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+
+\newpage
+\section{Mapa de ruta para resolver problemas}\label{intro}
+A partir del planteamiento de un problema se debe usar una metodología para resolverlo, que tendrá como producto una serie de pasos ordenados que lleverán a la solución. \newline
+La metodología propuesta para esto será el Método de George Pólya, matemático húngaro que hizo contribuciones en estos temas concernientes a la heurística y a la educación matemática
+
+\subsection{Pólya's method}
+Este método, propuesto por el matemático Póyla en su libro \textbf{\textit{How to solve it (1945)}}, consiste en una secuencia de 4 pasos que van desde la comprensión del problema hasta la evaluación de los procedimientos empleados en la resolución de un problema matemático\cite{YangaliVicente2016}. \newline
+El problema, y el libro en general, han tenido gran influencia en la enseñanza de las matemáticas en el mundo, al punto de ser el marco de trabajo de muchos de textos de matemáticas en Estados Unidos \cite{eswiki:132676686}. \newline
+Según el profesor Sebastián Isaza\cite{Udearroba_2019}, el método se puede resumir en la siguiente lista.
+
+\begin{enumerate}
+    \item \textbf{Entienda el problema.} Este paso, que requiere análisis,  se hace planteándose unas preguntas:
+    \begin{enumerate}
+        \item ¿Entiende todas las palabras de la formulación del problema ? Esto porque a veces hay palabras técnicas 
+        \item ¿Qué le están pidiendo que encuentre? Esto es, tener claro el norte
+        \item ¿Puede usted reformular el problema con sus propias palabras? Es la capacidad para explicarselo a alguien y es muy importante
+        \item ¿Puede hacer un dibujo que represente el problema? Las representaciones gráficas siempre ayudan mucho
+        \item ¿Hay suficiente información para encontrar la solución? Muchas veces los problemas están mal planteados y por esto hay que procurar dejar todo claro
+    \end{enumerate}
+    \item \textbf{Diseñe un plan.} Escoger una estrategia para resolver el problema (p. ej. dividir en partes pequeñas, eliminar posibilidades, aprovechar simetrías, suponer y verificar, etc). Este paso requiere creatividad
+    \item \textbf{Implemente el plan.} Poner el práctica el paso 2 solo que requiere mucha paciencia, cuidado y rigurosidad.
+    \item \textbf{Revise.} Es un paso que se omite mucho y es muy necesario porque, lo más común, es que se comentan errores en la implementación.
+\end{enumerate}
+
+\begin{figure}[!ht]
+\includegraphics[width=10cm]{póyla's-method.jpg}
+\centering
+\caption{Póyla's method}\cite{Quora}
+\centering
+\end{figure}
+
+
+\section{Ponderación de destreza} \label{contenido}
+En este punto del curso, mi destreza en las herramientas vistas hasta ahora es:
+\begin{enumerate}
+    \item \textbf{Git y GitHub:} 40\% porque ya tengo un poco de experiencia
+    \item \textbf{LaTeX y Overleaf:} 5\% porque, aunque ya las conocía, hasta ahora vengo a empezar a practicar con ellas
+    \item \textbf{Qt:} 2\% porque apenas me vengo a enterar de ella
+    \item \textbf{Herramientas de edición y captura de video:} 2\% porque nunca antes había practicado con ellas
+\end{enumerate}
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}
